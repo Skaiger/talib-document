@@ -280,7 +280,7 @@ SMA (TP, N) = SUM (TP, N) / N，3.从n周期之前的每个典型价格里扣除
 
 
 
-# Momentum——动量  
+### Momentum——动量  
 
 代码：MOM(close, timeperiod=10)
 
