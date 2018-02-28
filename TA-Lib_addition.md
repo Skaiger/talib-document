@@ -21,19 +21,19 @@ TA-Lib是一个优秀的技术指标计算工具包，广泛应用于量化分�
 ## Math Transform(数学变换)
 
 ## Math Operators(数学运算)
+****
 
 # Overlapping Studies Function(重叠指标)
 以均线为代表的重叠指标是最常用的技术指标之一，TALib中提供了很多重叠指标的计算功能，汇总如下：
 
-### Simple Moving Average——简单均线           
 
+### Simple Moving Average——简单均线           
 代码：SMA(close,timeperiod=N)
 
 简介说明：N日收盘价之和/N，解释价格平均移动最普遍的方法是就是将其动量与价格运动相比较。当价格上升到其移动平均线之上时，则视为一个买入信号；当价格下落到移动平均线下面时，可视为一个卖出信号。均线的含义类似，只是计算方法不同，特别是采用不同的平滑方法之后。
 
 
 ### Exponential Moving Average——指数平滑均线
-
 代码：EMA(close,timeperiod=N)
 
 简介说明：平滑系数*(当日收盘价-昨日计算的N日收盘均值)+昨日计算的N日收盘均值，平滑系数=2/(N+1)
@@ -47,34 +47,24 @@ TA-Lib是一个优秀的技术指标计算工具包，广泛应用于量化分�
 简介说明：收盘价1*1+收盘价2*2+...+收盘价N*N / (1+2+3+...+N)
 
 
-
-Bollinger Band——布林带
-
+### Bollinger Band——布林带
 代码：BBANDS(close, timeperiod=5, nbdevup=2, nbdevdn=2, matype=0)     
-
 简介说明：中间线=过去20交易日收盘价均线；Upper线=中间线+2*过去20交易日收盘价的标准差；Down线=中间线-2*过去20交易日收盘价的标准差
 
 
-
-Double Exponential Moving Average——双指数移动平均线           
-
+### Double Exponential Moving Average——双指数移动平均线           
 代码：DEMA(close, timeperiod=30)
-
 简介说明：是一种平滑方法。基于指数移动平均线EMA，与当前价格，存在一个EMA误差(当前价格-价格系列以N为周期的EMA的当前值err(i) = Price(i) - EMA(Price, N, i))，双指数平滑是将该EMA误差也做一次EMA再添加到指数移动平均上，即DEMA(i) = EMA(Price, N, i) + EMA(err, N, i)
 
 
-
-
-
-Hilbert Transform - Instantaneous Trendline   ——希尔伯特变换——瞬时趋势线      
+### Hilbert Transform - Instantaneous Trendline   ——希尔伯特变换——瞬时趋势线      
 
 代码：HT_TRENDLINE(close)
 
 简介说明：略
 
 
-
-Kaufman Adaptive Moving Average——考夫曼自适应移动平均线
+### Kaufman Adaptive Moving Average——考夫曼自适应移动平均线
 
 代码：KAMA(close, timeperiod=30)
 
@@ -83,8 +73,7 @@ Kaufman Adaptive Moving Average——考夫曼自适应移动平均线
 自适应均线的提出，是希望当价格沿某一个方向快速移动时，采用合适的短期均线；当价格在横盘中，则用长期的移动均线。
 
 
-
-MESA Adaptive Moving Average       MESA——自适应移动平均
+### MESA Adaptive Moving Average       MESA——自适应移动平均
 
 MAMA(close, fastlimit=0, slowlimit=0)
 
@@ -92,7 +81,7 @@ MAMA(close, fastlimit=0, slowlimit=0)
 
 
 
-Moving average with variable period——变周期移动平均线
+### Moving average with variable period——变周期移动平均线
 
 MAVP(close, periods, minperiod=2, maxperiod=30, matype=0)
 
@@ -100,7 +89,7 @@ MAVP(close, periods, minperiod=2, maxperiod=30, matype=0)
 
 
 
-MidPoint over period
+### MidPoint over period
 
 代码：MIDPOINT(close, timeperiod=14)
 
@@ -108,7 +97,7 @@ MidPoint over period
 
 
 
-Midpoint Price over period
+### Midpoint Price over period
 
 代码：MIDPRICE(high, low, timeperiod=14)   
 
@@ -116,7 +105,7 @@ Midpoint Price over period
 
 
 
-Parabolic SAR      抛物线指标
+### Parabolic SAR      抛物线指标
 
 代码：SAR(high, low, acceleration=0, maximum=0) 
 
@@ -126,7 +115,7 @@ Parabolic SAR      抛物线指标
 
 
 
-Triple Exponential Moving Average (T3)  三指数移动平均线(T3)
+### Triple Exponential Moving Average (T3)  三指数移动平均线(T3)
 
 T3(close, timeperiod=5, vfactor=0)
 
@@ -134,7 +123,7 @@ T3(close, timeperiod=5, vfactor=0)
 
 
 
-Triple Exponential Moving Average   三指数移动平均线
+### Triple Exponential Moving Average   三指数移动平均线
 
 代码：TEMA(close, timeperiod=30)   
 
@@ -142,7 +131,7 @@ Triple Exponential Moving Average   三指数移动平均线
 
 
 
-Triangular Moving Average 三角形加权法
+### Triangular Moving Average 三角形加权法
 
 代码：TRIMA(close, timeperiod=30)
 
@@ -150,12 +139,12 @@ Triangular Moving Average 三角形加权法
 
 
 
-3. Momentum Indicator Functions(动量指标)
+# Momentum Indicator Functions(动量指标)
 动量指标是技术分析中最为常用的指标，在TAlib中也提供了很多动量指标计算的函数，汇总如下：
 
 
 
-指数平滑异同移动平均线(MACD)
+### 指数平滑异同移动平均线(MACD)
 
 代码：ta.MACD(close, fastperiod=6, slowperiod=12, signalperiod=9)
 
