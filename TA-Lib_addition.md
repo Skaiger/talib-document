@@ -1,14 +1,14 @@
-TA-Lib是一个优秀的技术指标计算工具包，广泛应用于量化分析和程序化交易，常用语技术指标计算以及K线形态识别，可以大大方便我们量化投资中编程工作。TA-Lib主要包括10大类工具：
+##TA-Lib是一个优秀的技术指标计算工具包，广泛应用于量化分析和程序化交易，常用语技术指标计算以及K线形态识别，可以大大方便我们量化投资中编程工作。TA-Lib主要包括10大类工具：
 
-Overlap Studies(重叠指标)
+#Overlap Studies(重叠指标)
 
-Volume Indicators(交易量指标)
+#Volume Indicators(交易量指标)
 
-Cycle Indicators(周期指标)
+#Cycle Indicators(周期指标)
 
-Price Transform(价格变换)
+#Price Transform(价格变换)
 
-Volatility Indicators(波动率指标)
+#Volatility Indicators(波动率指标)
 
 Pattern Recognition(模式识别)
 
