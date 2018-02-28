@@ -154,7 +154,7 @@ T3(close, timeperiod=5, vfactor=0)
 
 
 
-随机指数(Stochastics / KDJ)
+### 随机指数(Stochastics / KDJ)
 
 代码：STOCH(high, low, close, fastk_period=5, slowk_period=3, slowk_matype=0, slowd_period=3, slowd_matype=0)
 
@@ -166,7 +166,7 @@ T3(close, timeperiod=5, vfactor=0)
 
 
 
-Average Directional Movement Index——平均方向移动指数
+### Average Directional Movement Index——平均方向移动指数
 
 代码：ADX(high, low, close, timeperiod=14)
 
@@ -174,7 +174,7 @@ Average Directional Movement Index——平均方向移动指数
 
 
 
-Average Directional Movement Index Rating——平均方向移动指标排名
+### Average Directional Movement Index Rating——平均方向移动指标排名
 
 代码：ADXR(high, low, close, timeperiod=14)
 
@@ -182,7 +182,7 @@ Average Directional Movement Index Rating——平均方向移动指标排名
 
 
 
-Absolute Price Oscillator——绝对价格振荡器     
+### Absolute Price Oscillator——绝对价格振荡器     
 
 代码：APO(close, fastperiod=12, slowperiod=26, matype=0)
 
@@ -190,7 +190,7 @@ Absolute Price Oscillator——绝对价格振荡器
 
 
 
-Aroon——阿隆指标
+### Aroon——阿隆指标
 
 代码：AROON(high, low, timeperiod=14)
 
@@ -198,7 +198,7 @@ Aroon——阿隆指标
 
 
 
-Aroon Oscillator——阿隆振荡器
+### Aroon Oscillator——阿隆振荡器
 
 代码：AROONOSC(high, low, timeperiod=14)
 
@@ -206,7 +206,7 @@ Aroon Oscillator——阿隆振荡器
 
 
 
-Balance Of Power——均势指标
+### Balance Of Power——均势指标
 
 代码：BOP(open, high, low, close)
 
@@ -214,7 +214,7 @@ Balance Of Power——均势指标
 
 
 
-Commodity Channel Index——商品通道指数
+### Commodity Channel Index——商品通道指数
 
 代码：CCI(high, low, close, timeperiod=14)
 
@@ -224,7 +224,7 @@ SMA (TP, N) = SUM (TP, N) / N，3.从n周期之前的每个典型价格里扣除
 
 
 
-Chande Momentum Oscillator——钱德动量摆动指标
+### Chande Momentum Oscillator——钱德动量摆动指标
 
 代码：CMO(close, timeperiod=14)     
 
@@ -232,7 +232,7 @@ Chande Momentum Oscillator——钱德动量摆动指标
 
 
 
-Directional Movement Index——方向性移动指标
+### Directional Movement Index——方向性移动指标
 
 代码：DX(high, low, close, timeperiod=14)
 
@@ -240,7 +240,7 @@ Directional Movement Index——方向性移动指标
 
 
 
-MACD with controllable MA type     ——带可控MA类型的MACD
+### MACD with controllable MA type     ——带可控MA类型的MACD
 
 代码：MACDEXT(close, fastperiod=12, fastmatype=0, slowperiod=26, slowmatype=0, signalperiod=9, signalmatype=0)
 
@@ -248,7 +248,7 @@ MACD with controllable MA type     ——带可控MA类型的MACD
 
 
 
-Moving Average Convergence/Divergence Fix 12/26——移动平均收敛/散度 固定 12/26      
+### Moving Average Convergence/Divergence Fix 12/26——移动平均收敛/散度 固定 12/26      
 
 代码：MACDFIX(close, signalperiod=9)
 
@@ -256,7 +256,7 @@ Moving Average Convergence/Divergence Fix 12/26——移动平均收敛/散度 �
 
 
 
-Money Flow Index——资金流量指标
+### Money Flow Index——资金流量指标
 
 代码：MFI(high, low, close, volume, timeperiod=14)
 
@@ -264,7 +264,7 @@ Money Flow Index——资金流量指标
 
 
 
-Minus Directional Indicator——负向指标
+### Minus Directional Indicator——负向指标
 
 代码：MINUS_DI(high, low, close, timeperiod=14)
 
@@ -272,7 +272,7 @@ Minus Directional Indicator——负向指标
 
 
 
-Minus Directional Movement——负向运行指标
+### Minus Directional Movement——负向运行指标
 
 代码：MINUS_DM(high, low, timeperiod=14)
 
@@ -280,7 +280,7 @@ Minus Directional Movement——负向运行指标
 
 
 
-Momentum——动量  
+# Momentum——动量  
 
 代码：MOM(close, timeperiod=10)
 
@@ -290,7 +290,7 @@ Momentum——动量
 
 
 
-Plus Directional Indicator——正向指标
+### Plus Directional Indicator——正向指标
 
 代码：PLUS_DI(high, low, close, timeperiod=14)
 
@@ -298,13 +298,13 @@ Plus Directional Indicator——正向指标
 
 
 
-Plus Directional Movement——正向移动指标
+### Plus Directional Movement——正向移动指标
 
 代码：PLUS_DM(high, low, timeperiod=14)
 
 简介说明：略
 
-Percentage Price Oscillator——比例价格振荡器
+### Percentage Price Oscillator——比例价格振荡器
 
 代码：PPO(close, fastperiod=12, slowperiod=26, matype=0)
 
@@ -312,7 +312,7 @@ Percentage Price Oscillator——比例价格振荡器
 
 
 
-Rate of change——变化率
+### Rate of change——变化率
 
 代码：ROC(close, timeperiod=10)
 
@@ -320,7 +320,7 @@ Rate of change——变化率
 
 
 
-Rate of change Percentage——变化率百分比
+### Rate of change Percentage——变化率百分比
 
 代码：ROCP(close, timeperiod=10)
 
@@ -328,7 +328,7 @@ Rate of change Percentage——变化率百分比
 
 
 
-Rate of change ratio——变化率的比率  
+### Rate of change ratio——变化率的比率  
 
 代码：ROCR(close, timeperiod=10)
 
@@ -336,7 +336,7 @@ Rate of change ratio——变化率的比率
 
 
 
-Rate of change ratio 100 scale——变化率的比率100倍     
+### Rate of change ratio 100 scale——变化率的比率100倍     
 
 代码：ROCR100(close, timeperiod=10)
 
@@ -344,7 +344,7 @@ Rate of change ratio 100 scale——变化率的比率100倍
 
 
 
-Relative Strength Index——相对强弱指数    
+### Relative Strength Index——相对强弱指数    
 
 代码：RSI(close, timeperiod=14)
 
@@ -352,7 +352,7 @@ Relative Strength Index——相对强弱指数
 
 
 
-Stochastic Fast——随机指标快速线
+### Stochastic Fast——随机指标快速线
 
 代码：STOCHF(high, low, close, fastk_period=5, fastd_period=3, fastd_matype=0)      
 
@@ -362,7 +362,7 @@ Stochastic Relative Strength Index——       随机相对强弱指标
 
 
 
-Stochastic Relative Strength Index——    随机相对强弱指标    
+### Stochastic Relative Strength Index——    随机相对强弱指标    
 
 代码：STOCHRSI(close, timeperiod=14, fastk_period=5, fastd_period=3, fastd_matype=0)
 
@@ -370,7 +370,7 @@ Stochastic Relative Strength Index——    随机相对强弱指标
 
 
 
-1-day Rate-Of-Change (ROC) of a Triple Smooth EMA——三重光滑EMA的日变化率      
+### 1-day Rate-Of-Change (ROC) of a Triple Smooth EMA——三重光滑EMA的日变化率      
 
 代码：TRIX(close, timeperiod=30)
 
@@ -378,7 +378,7 @@ Stochastic Relative Strength Index——    随机相对强弱指标
 
 
 
-Ultimate Oscillator——终极指标
+### Ultimate Oscillator——终极指标
 
 代码：ULTOSC(high, low, close, timeperiod1=7, timeperiod2=14, timeperiod3=28)
 
@@ -386,32 +386,30 @@ Ultimate Oscillator——终极指标
 
 
 
-Williams' %R ——威廉指标
+### Williams' %R ——威廉指标
 
 代码：WILLR(high, low, close, timeperiod=14)
 
 简介说明：威廉技术指标 (%R)是一个动态技术指标，由它来决定市场是否过度买入/过度卖出。-80%到-100%之间变化的指标值表示市场处于过度卖出状态。-0%到-20%之间变化的指标值表示市场处于过度买入状态。为表明威廉指标的上下运动方式，需要在威廉指标值前加负号（例如-30%）。不过在进行指标分析时，可以忽略那个负号的存在。其计算如下：%R = -(MAX (HIGH (i - n)) - CLOSE (i)) / (MAX (HIGH (i - n)) - MIN (LOW (i - n))) * 100，其中CLOSE (i)为当前收盘价，MAX (HIGH (i - n))为上一周期数(n)的最大最高价，MIN (LOW (i - n))为上一周期数(n)的最小最低价
 
-4. Volume Indicator Functions(交易量指标)
+# Volume Indicator Functions(交易量指标)
 交易量指标作为量价指标的一部分，在技术分析往往辅助判断价格的走势(和价格指标一起使用)，在TALib中交易量指标只有3个，汇总如下：
 
-Chaikin A/D Line——收集派发线          
+### Chaikin A/D Line——收集派发线          
 
 代码：AD(high, low, close, volume)
 
 简介说明：今日的A/D值 = 昨天的A/D值＋（收盘价位置常数×成交量） 收盘价位置常数=((收盘价－最低价)－(最高价－收盘价))/(最高价－收盘价)
 
 
-
-Chaikin A/D Oscillator——收集派发震荡指标    
+### Chaikin A/D Oscillator——收集派发震荡指标    
 
 代码：ADOSC(high, low, close, volume, fastperiod=3, slowperiod=10)  
 
 简介说明：收集派发线的3日EMA值与10日EMA值的差值
 
 
-
-On Balance Volume——能量潮指标
+### On Balance Volume——能量潮指标
 
 代码：OBV(close, volume)
 
@@ -419,12 +417,12 @@ On Balance Volume——能量潮指标
 
 
 
-5. Volatility Indicator Functions(波动性指标)
+# Volatility Indicator Functions(波动性指标)
 波动性指标，用于衡量价格的波动情况，辅助判断趋势改变的可能性，市场的交易氛围，也可以利用波动性指标来帮助止损止盈，在TALib中波动性指标只有3个，汇总如下：
 
 
 
-Average True Range——平均真实波动范围
+### Average True Range——平均真实波动范围
 
 代码：ATR(high, low, close, timeperiod=14)
 
@@ -432,7 +430,7 @@ Average True Range——平均真实波动范围
 
 
 
-Normalized Average True Range——正态化平均真实波动范围       
+### Normalized Average True Range——正态化平均真实波动范围       
 
 代码：NATR(high, low, close, timeperiod=14)
 
@@ -440,7 +438,7 @@ Normalized Average True Range——正态化平均真实波动范围
 
 
 
-True Range——真实波动幅度 
+### True Range——真实波动幅度 
 
 代码：TRANGE(high, low, close)      
 
@@ -451,7 +449,7 @@ True Range——真实波动幅度
 
 
 
-Average Price——平均价格
+### Average Price——平均价格
 
 代码：AVGPRICE(open, high, low, close) 
 
@@ -459,7 +457,7 @@ Average Price——平均价格
 
 
 
-Median Price——中位数价格         
+### Median Price——中位数价格         
 
 代码：MEDPRICE(high, low)
 
@@ -467,7 +465,7 @@ Median Price——中位数价格
 
 
 
-Typical Price——典型价格             
+### Typical Price——典型价格             
 
 代码：TYPPRICE(high, low, close)
 
@@ -475,7 +473,7 @@ Typical Price——典型价格
 
 
 
-Weighted Close Price——加权收盘价           
+### Weighted Close Price——加权收盘价           
 
 代码：WCLPRICE(high, low, close)
 
@@ -486,7 +484,7 @@ Weighted Close Price——加权收盘价
 
 
 
-Hilbert Transform - Dominant Cycle Period——主导周期期限 
+### Hilbert Transform - Dominant Cycle Period——主导周期期限 
 
 代码：HT_DCPERIOD(close)
 
@@ -496,7 +494,7 @@ Hilbert Transform - Dominant Cycle Period——主导周期期限
 
 
 
-Hilbert Transform - Dominant Cycle Phase——主导周期阶段  
+### Hilbert Transform - Dominant Cycle Phase——主导周期阶段  
 
 代码：HT_DCPHASE(close)
 
@@ -504,7 +502,7 @@ Hilbert Transform - Dominant Cycle Phase——主导周期阶段
 
 
 
-Hilbert Transform - Phasor Components——相位构成      
+### Hilbert Transform - Phasor Components——相位构成      
 
 代码：HT_PHASOR(close)
 
@@ -512,7 +510,7 @@ Hilbert Transform - Phasor Components——相位构成
 
 
 
-Hilbert Transform – SineWave——正弦波    
+### Hilbert Transform – SineWave——正弦波    
 
 代码：HT_SINE(close)
 
@@ -520,18 +518,19 @@ Hilbert Transform – SineWave——正弦波
 
 
 
-Hilbert Transform - Trend vs Cycle Mode——趋势-周期模式   
+### Hilbert Transform - Trend vs Cycle Mode——趋势-周期模式   
 
 代码：HT_TRENDMODE(close)
 
 简介说明：略
 
-8. Pattern Recognition Functions(模式识别函数)
+
+# Pattern Recognition Functions(模式识别函数)
 在TALib中模式识别函数非常多，对应了技术分析中很多量价形态和模式，按模式期限汇总如下。 在这一节中，有些术语先在这里说明，x日K线模式指的是x交易日周期的K线模式，上影线指的是最高价-max(开盘价，收盘价)的长度，下影线指的是最低价-min(开盘价，收盘价)的长度，向上跳空指的是T日最低价大于T-1日最高价，向下跳空指的是T日最高价小于T-1日最低价。
 
 在模式识别函数的输出中，0表示该日无这一模式，100表示在改日识别了这一模式，-100表示在改日识别了这一模式的反向模式。
 
-9. 一日K线模式
+### 一日K线模式
 Closing Marubozu  收盘缺影线
 
 代码：ta.CDLCLOSINGMARUBOZU(open, high, low, close)
@@ -540,7 +539,7 @@ Closing Marubozu  收盘缺影线
 
 
 
-Doji 十字
+### Doji 十字
 
 代码：ta.CDLDOJI(open, high, low, close)
 
@@ -548,7 +547,7 @@ Doji 十字
 
 
 
-Doji Star 十字星
+### Doji Star 十字星
 
 代码：ta.CDLDOJISTAR(open, high, low, close)
 
@@ -556,7 +555,7 @@ Doji Star 十字星
 
 
 
-Dragonfly Doji 蜻蜓十字/T形十字
+### Dragonfly Doji 蜻蜓十字/T形十字
 
 代码：ta.CDLDRAGONFLYDOJI(open, high, low, close)
 
@@ -564,7 +563,7 @@ Dragonfly Doji 蜻蜓十字/T形十字
 
 
 
-Gravestone Doji 墓碑十字/倒T十字
+### Gravestone Doji 墓碑十字/倒T十字
 
 代码：ta.CDLGRAVESTONEDOJI(open, high, low, close)
 
@@ -572,7 +571,7 @@ Gravestone Doji 墓碑十字/倒T十字
 
 
 
-Hammer 锤头
+### Hammer 锤头
 
 代码：ta.CDLHAMMER(open, high, low, close)
 
@@ -580,7 +579,7 @@ Hammer 锤头
 
 
 
-Hanging Man 上吊线
+### Hanging Man 上吊线
 
 代码：ta.CDLHANGINGMAN(open, high, low, close)
 
@@ -588,7 +587,7 @@ Hanging Man 上吊线
 
 
 
-Inverted Hammer 倒锤头
+### Inverted Hammer 倒锤头
 
 代码： ta.CDLINVERTEDHAMMER(open, high, low, close)
 
@@ -596,7 +595,7 @@ Inverted Hammer 倒锤头
 
 
 
-Long Legged Doji 长脚十字
+### Long Legged Doji 长脚十字
 
 代码：ta.CDLLONGLEGGEDDOJI(open, high, low, close)
 
@@ -604,7 +603,7 @@ Long Legged Doji 长脚十字
 
 
 
-Long Line Candle长蜡烛
+### Long Line Candle长蜡烛
 
 代码： ta.CDLLONGLINE(open, high, low, close)
 
@@ -612,7 +611,7 @@ Long Line Candle长蜡烛
 
 
 
-Marubozu 光头光脚/缺影线
+### Marubozu 光头光脚/缺影线
 
 代码：ta.CDLMARUBOZU(open, high, low, close)
 
@@ -620,7 +619,7 @@ Marubozu 光头光脚/缺影线
 
 
 
-Rickshaw Man 黄包车夫
+### Rickshaw Man 黄包车夫
 
 代码：ta.CDLRICKSHAWMAN(open, high, low, close)
 
@@ -628,7 +627,7 @@ Rickshaw Man 黄包车夫
 
 
 
-Separating Lines 分离线
+### Separating Lines 分离线
 
 代码：ta.CDLSEPARATINGLINES(open, high, low, close)
 
@@ -636,7 +635,7 @@ Separating Lines 分离线
 
 
 
-Shooting Star 射击之星
+### Shooting Star 射击之星
 
 代码：ta.CDLSHOOTINGSTAR(open, high, low, close)
 
@@ -644,7 +643,7 @@ Shooting Star 射击之星
 
 
 
-Short Line Candle 短蜡烛
+### Short Line Candle 短蜡烛
 
 代码：ta.CDLSHORTLINE(open, high, low, close)
 
@@ -652,22 +651,21 @@ Short Line Candle 短蜡烛
 
 
 
-Takuri (Dragonfly Doji with very long lower shadow)探水竿
+### Takuri (Dragonfly Doji with very long lower shadow)探水竿
 
 代码：ta.CDLTAKURI(open, high, low, close)
 
 简介说明：一日K线模式，大致与蜻蜓十字相同，下影线长度长
 
-10. 二日K线模式
-Belt-hold 捉腰带线
+# 二日K线模式
+### Belt-hold 捉腰带线
 
 代码：ta.CDLBELTHOLD(open, high, low, close)
 
 简介说明：二日K线模式，下跌趋势中，第一日阴线，第二日开盘价为最低价，阳线，收盘价接近最高价，预示价格上涨
 
 
-
-Counterattack反击线
+### Counterattack反击线
 
 代码：ta.CDLCOUNTERATTACK(open, high, low, close)
 
@@ -675,7 +673,7 @@ Counterattack反击线
 
 
 
-Dark Cloud Cover 乌云压顶
+### Dark Cloud Cover 乌云压顶
 
 代码：ta.CDLDARKCLOUDCOVER(open, high, low, close, penetration=0)
 
@@ -683,7 +681,7 @@ Dark Cloud Cover 乌云压顶
 
 
 
-Engulfing Pattern 吞噬模式
+### Engulfing Pattern 吞噬模式
 
 代码：ta.CDLENGULFING(open, high, low, close)
 
@@ -691,7 +689,7 @@ Engulfing Pattern 吞噬模式
 
 
 
-Up/Down-gap side-by-side white lines 向上/下跳空并列阳线
+### Up/Down-gap side-by-side white lines 向上/下跳空并列阳线
 
 代码：ta.CDLGAPSIDESIDEWHITE(open, high, low, close)
 
@@ -699,7 +697,7 @@ Up/Down-gap side-by-side white lines 向上/下跳空并列阳线
 
 
 
-Harami Pattern 母子线
+### Harami Pattern 母子线
 
 代码： ta.CDLHARAMI(open, high, low, close)
 
@@ -707,7 +705,7 @@ Harami Pattern 母子线
 
 
 
-Harami Cross Pattern  十字孕线
+### Harami Cross Pattern  十字孕线
 
 代码：ta.CDLHARAMICROSS(open, high, low, close)
 
@@ -715,7 +713,7 @@ Harami Cross Pattern  十字孕线
 
 
 
-Homing Pigeon 家鸽
+### Homing Pigeon 家鸽
 
 代码：ta.CDLHOMINGPIGEON(open, high, low, close)
 
@@ -723,7 +721,7 @@ Homing Pigeon 家鸽
 
 
 
-In-Neck Pattern 颈内线
+### In-Neck Pattern 颈内线
 
 代码：ta.CDLINNECK(open, high, low, close)
 
@@ -731,7 +729,7 @@ In-Neck Pattern 颈内线
 
 
 
-Kicking 反冲形态
+### Kicking 反冲形态
 
 代码：ta.CDLKICKING(open, high, low, close)
 
@@ -739,7 +737,7 @@ Kicking 反冲形态
 
 
 
-Kicking - bull/bear determined by the longer marubozu 由较长缺影线决定的反冲形态
+### Kicking - bull/bear determined by the longer marubozu 由较长缺影线决定的反冲形态
 
 代码：ta.CDLKICKINGBYLENGTH(open, high, low, close)
 
@@ -747,7 +745,7 @@ Kicking - bull/bear determined by the longer marubozu 由较长缺影线决定�
 
 
 
-Matching Low 相同低价
+### Matching Low 相同低价
 
 代码： ta.CDLMATCHINGLOW(open, high, low, close)
 
@@ -755,7 +753,7 @@ Matching Low 相同低价
 
 
 
-On-Neck Pattern 颈上线
+### On-Neck Pattern 颈上线
 
 代码： ta.CDLONNECK(open, high, low, close)
 
@@ -763,20 +761,21 @@ On-Neck Pattern 颈上线
 
 
 
-Piercing Pattern刺透形态
+### Piercing Pattern刺透形态
 
 代码：a.CDLPIERCING(open, high, low, close)
 
 简介说明：二日K线模式，下跌趋势中，第一日阴线，第二日收盘价低于前一日最低价，收盘价处在第一日实体上部，预示着底部反转
 
-Thrusting Pattern 插入
+### Thrusting Pattern 插入
 
 代码：ta.CDLTHRUSTING(open, high, low, close)
 
 简介说明：二日K线模式，与颈上线类似，下跌趋势中，第一日长阴线，第二日开盘价跳空，收盘价略低于前一日实体中部，与颈上线相比实体较长，预示着趋势持
 
-11. 三日K线模式
-Two Crows 两只乌鸦
+
+# 三日K线模式
+### Two Crows 两只乌鸦
 
 代码：ta.CDL2CROWS(open, high, low, close)
 
@@ -784,7 +783,7 @@ Two Crows 两只乌鸦
 
 
 
-Three Black Crows 三只乌鸦
+### Three Black Crows 三只乌鸦
 
 代码：ta.CDL3BLACKCROWS(open, high, low, close)
 
@@ -792,7 +791,7 @@ Three Black Crows 三只乌鸦
 
 
 
-Three Inside Up/Down 三内部上涨和下跌
+### Three Inside Up/Down 三内部上涨和下跌
 
 代码：ta.CDL3INSIDE(open, high, low, close)
 
@@ -800,7 +799,7 @@ Three Inside Up/Down 三内部上涨和下跌
 
 
 
-Three Outside Up/Down 三外部上涨和下跌
+### Three Outside Up/Down 三外部上涨和下跌
 
 代码：ta.CDL3OUTSIDE(open, high, low, close)
 
@@ -808,7 +807,7 @@ Three Outside Up/Down 三外部上涨和下跌
 
 
 
-Three Stars In The South 南方三星
+### Three Stars In The South 南方三星
 
 代码：ta.CDL3STARSINSOUTH(open, high, low, close)
 
@@ -816,7 +815,7 @@ Three Stars In The South 南方三星
 
 
 
-Three Advancing White Soldiers 三个白兵
+### Three Advancing White Soldiers 三个白兵
 
 代码：ta.CDL3WHITESOLDIERS(open, high, low, close)
 
@@ -824,7 +823,7 @@ Three Advancing White Soldiers 三个白兵
 
 
 
-Abandoned Baby 弃婴
+### Abandoned Baby 弃婴
 
 代码： ta.CDLABANDONEDBABY(open, high, low, close, penetration=0)
 
@@ -832,7 +831,7 @@ Abandoned Baby 弃婴
 
 
 
-Advance Block 大敌当前
+### Advance Block 大敌当前
 
 代码：ta.CDLADVANCEBLOCK(open, high, low, close)
 
@@ -840,7 +839,7 @@ Advance Block 大敌当前
 
 
 
-Evening Doji Star 十字暮星
+### Evening Doji Star 十字暮星
 
 代码：ta.CDLEVENINGDOJISTAR(open, high, low, close, penetration=0)
 
@@ -848,7 +847,7 @@ Evening Doji Star 十字暮星
 
 
 
-High-Wave Candle 风高浪大线
+### High-Wave Candle 风高浪大线
 
 代码：ta.CDLHIGHWAVE(open, high, low, close)
 
@@ -856,7 +855,7 @@ High-Wave Candle 风高浪大线
 
 
 
-Hikkake Pattern 陷阱
+### Hikkake Pattern 陷阱
 
 代码： ta.CDLHIKKAKE(open, high, low, close)
 
@@ -864,7 +863,7 @@ Hikkake Pattern 陷阱
 
 
 
-Modified Hikkake Pattern 修正陷阱
+### Modified Hikkake Pattern 修正陷阱
 
 代码：ta.CDLHIKKAKEMOD(open, high, low, close)
 
@@ -872,7 +871,7 @@ Modified Hikkake Pattern 修正陷阱
 
 
 
-Identical Three Crows 三胞胎乌鸦
+### Identical Three Crows 三胞胎乌鸦
 
 代码：ta.CDLIDENTICAL3CROWS(open, high, low, close)
 
@@ -880,7 +879,7 @@ Identical Three Crows 三胞胎乌鸦
 
 
 
-Morning Doji Star 十字晨星
+### Morning Doji Star 十字晨星
 
 代码：ta.CDLMORNINGDOJISTAR(open, high, low, close, penetration=0)
 
@@ -888,7 +887,7 @@ Morning Doji Star 十字晨星
 
 
 
-Morning Star 晨星
+### Morning Star 晨星
 
 代码：ta.CDLMORNINGSTAR(open, high, low, close, penetration=0)
 
@@ -896,7 +895,7 @@ Morning Star 晨星
 
 
 
-Stalled Pattern 停顿形态
+### Stalled Pattern 停顿形态
 
 代码：ta.CDLSTALLEDPATTERN(open, high, low, close)
 
@@ -904,7 +903,7 @@ Stalled Pattern 停顿形态
 
 
 
-Stick Sandwich 条形三明治
+### Stick Sandwich 条形三明治
 
 代码：ta.CDLSTICKSANDWICH(open, high, low, close)
 
@@ -912,7 +911,7 @@ Stick Sandwich 条形三明治
 
 
 
-Tasuki Gap 跳空并列阴阳线
+### Tasuki Gap 跳空并列阴阳线
 
 代码：ta.CDLTASUKIGAP(open, high, low, close)
 
@@ -920,7 +919,7 @@ Tasuki Gap 跳空并列阴阳线
 
 
 
-Tristar Pattern 三星
+### Tristar Pattern 三星
 
 代码：ta.CDLTRISTAR(open, high, low, close)
 
@@ -928,7 +927,7 @@ Tristar Pattern 三星
 
 
 
-Unique 3 River 奇特三河床
+### Unique 3 River 奇特三河床
 
 代码： ta.CDLUNIQUE3RIVER(open, high, low, close)
 
@@ -936,14 +935,14 @@ Unique 3 River 奇特三河床
 
 
 
-Upside Gap Two Crows 向上跳空的两只乌鸦
+### Upside Gap Two Crows 向上跳空的两只乌鸦
 
 代码：ta.CDLUPSIDEGAP2CROWS(open, high, low, close)
 
 简介说明：三日K线模式，第一日阳线，第二日跳空以高于第一日最高价开盘，收阴线，第三日开盘价高于第二日，收阴线，与第一日比仍有缺口
 
-12. 四日K线模式
-Three-Line Strike三线打击
+# 四日K线模式
+### Three-Line Strike三线打击
 
 代码：CDL3LINESTRIKE(open, high, low, close)
 
@@ -951,14 +950,15 @@ Three-Line Strike三线打击
 
 
 
-Concealing Baby Swallow藏婴吞没
+### Concealing Baby Swallow藏婴吞没
 
 代码：CDLCONCEALBABYSWALL(open, high, low, close)
 
 简介说明：四日K线模式，下跌趋势中，前两日阴线无影线，第二日开盘、收盘价皆低于第二日，第三日倒锤头，第四日开盘价高于前一日最高价，收盘价低于前一日最低价，预示着底部反转
 
-13. 五日K线模式
-Breakaway脱离
+# 五日K线模式
+
+### Breakaway脱离
 
 代码：CDLBREAKAWAY(open, high, low, close)
 
@@ -966,13 +966,13 @@ Breakaway脱离
 
 
 
-Ladder Bottom梯底
+### Ladder Bottom梯底
 
 代码：CDLLADDERBOTTOM(open, high, low, close)
 
 简介说明：五日K线模式，下跌趋势中，前三日阴线，开盘价与收盘价皆低于前一日开盘、收盘价，第四日倒锤头，第五日开盘价高于前一日开盘价，阳线，收盘价高于前几日价格振幅，预示着底部反转
 
-Mat Hold铺垫
+### Mat Hold铺垫
 
 代码：CDLMATHOLD(open, high, low, close, penetration=0)
 
@@ -980,7 +980,7 @@ Mat Hold铺垫
 
 
 
-Rising/Falling Three Methods上升/下降三法
+### Rising/Falling Three Methods上升/下降三法
 
 代码：CDLRISEFALL3METHODS(open, high, low, close)
 
@@ -988,18 +988,18 @@ Rising/Falling Three Methods上升/下降三法
 
 
 
-Upside/Downside Gap Three Methods上升/下降跳空三法
+### Upside/Downside Gap Three Methods上升/下降跳空三法
 
 代码：CDLXSIDEGAP3METHODS(open, high, low, close)
 
 简介说明：五日K线模式，以上升跳空三法为例，上涨趋势中，第一日长阳线，第二日短阳线，第三日跳空阳线，第四日阴线，开盘价与收盘价于前两日实体内，第五日长阳线，收盘价高于第一日收盘价，预示股价上升
 
-14. Statistic Functions(统计函数)
+# Statistic Functions(统计函数)
 在TALib中也提供了很多基础统计函数，汇总如下：
 
 
 
-Beta
+### Beta
 
 代码：BETA(high, low, timeperiod=5)
 
@@ -1007,23 +1007,20 @@ Beta
 
 
 
-
-
-Pearson's Correlation Coefficient (r) Pearson相关系数
+### Pearson's Correlation Coefficient (r) Pearson相关系数
 
 代码：CORREL(high, low, timeperiod=30)
 
 简介说明：高价序列和低价序列的线性相关系数
 
 
-
-Linear Regression 线性回归
+### Linear Regression 线性回归
 
 代码：LINEARREG(close, timeperiod=14)
 
 简介说明：收盘价序列对时间t的线性回归，并输出预测值
 
-Linear Regression Angle      线性回归角度     
+### Linear Regression Angle      线性回归角度     
 
 代码：LINEARREG_ANGLE(close, timeperiod=14)
 
@@ -1031,7 +1028,7 @@ Linear Regression Angle      线性回归角度
 
 
 
-Linear Regression Intercept       线性回归截距项
+### Linear Regression Intercept       线性回归截距项
 
 代码：LINEARREG_INTERCEPT(close, timeperiod=14)
 
@@ -1039,7 +1036,7 @@ Linear Regression Intercept       线性回归截距项
 
 
 
-Linear Regression Slope      线性回归斜率
+### Linear Regression Slope      线性回归斜率
 
 代码：LINEARREG_SLOPE(close, timeperiod=14)
 
@@ -1047,7 +1044,7 @@ Linear Regression Slope      线性回归斜率
 
 
 
-Standard Deviation     标准差
+### Standard Deviation     标准差
 
 代码：STDDEV(close, timeperiod=5, nbdev=1)
 
@@ -1055,7 +1052,7 @@ Standard Deviation     标准差
 
 
 
-Time Series Forecast时间序列预测
+### Time Series Forecast时间序列预测
 
 代码：TSF(close, timeperiod=14)      
 
@@ -1063,7 +1060,7 @@ Time Series Forecast时间序列预测
 
 
 
-Variance 方差
+### Variance 方差
 
 代码：VAR(close, timeperiod=5, nbdev=1)
 
@@ -1074,7 +1071,7 @@ Variance 方差
 
 
 
-Vector Trigonometric ACos
+### Vector Trigonometric ACos
 
 代码：ACOS(close)
 
@@ -1082,7 +1079,7 @@ Vector Trigonometric ACos
 
 
 
-Vector Trigonometric ASin
+### Vector Trigonometric ASin
 
 代码：ASIN(close)
 
@@ -1090,7 +1087,7 @@ Vector Trigonometric ASin
 
 
 
-Vector Trigonometric ATan
+### Vector Trigonometric ATan
 
 代码：ATAN(close)
 
@@ -1098,7 +1095,7 @@ Vector Trigonometric ATan
 
 
 
-Vector Ceil
+### Vector Ceil
 
 代码：CEIL(close)
 
@@ -1106,7 +1103,7 @@ Vector Ceil
 
 
 
-Vector Trigonometric Cos
+### Vector Trigonometric Cos
 
 代码：COS(close)
 
@@ -1114,7 +1111,7 @@ Vector Trigonometric Cos
 
 
 
-Vector Trigonometric Cosh
+### Vector Trigonometric Cosh
 
 代码：COSH(close)
 
@@ -1122,7 +1119,7 @@ Vector Trigonometric Cosh
 
 
 
-Vector Arithmetic Exp
+### Vector Arithmetic Exp
 
 代码：EXP(close)
 
@@ -1130,7 +1127,7 @@ Vector Arithmetic Exp
 
 
 
-Vector Floor
+### Vector Floor
 
 代码：FLOOR(close)
 
@@ -1138,7 +1135,7 @@ Vector Floor
 
 
 
-Vector Log Natural     
+### Vector Log Natural     
 
 代码：LN(close)
 
@@ -1146,7 +1143,7 @@ Vector Log Natural
 
 
 
-Vector Log10
+### Vector Log10
 
 代码：LOG10(close)
 
@@ -1154,7 +1151,7 @@ Vector Log10
 
 
 
-Vector Trigonometric Sin
+### Vector Trigonometric Sin
 
 代码：SIN(close)
 
@@ -1162,7 +1159,7 @@ Vector Trigonometric Sin
 
 
 
-Vector Trigonometric Sinh 
+### Vector Trigonometric Sinh 
 
 代码：SINH(close)
 
@@ -1170,7 +1167,7 @@ Vector Trigonometric Sinh
 
 
 
-Vector Square Root
+### Vector Square Root
 
 代码：SQRT(close)
 
@@ -1178,7 +1175,7 @@ Vector Square Root
 
 
 
-Vector Trigonometric Tan
+### Vector Trigonometric Tan
 
 代码：TAN(close)
 
@@ -1186,7 +1183,7 @@ Vector Trigonometric Tan
 
 
 
-Vector Trigonometric Tanh
+### Vector Trigonometric Tanh
 
 代码：TANH(close)
 
@@ -1197,8 +1194,7 @@ Vector Trigonometric Tanh
 
 
 
-​
-Vector Arithmetic Add       
+### Vector Arithmetic Add       
 
 代码：ADD(high, low)
 
@@ -1206,7 +1202,7 @@ Vector Arithmetic Add
 
 
 
-Vector Arithmetic Div        
+### Vector Arithmetic Div        
 
 代码：DIV(high, low)
 
@@ -1214,7 +1210,7 @@ Vector Arithmetic Div
 
 
 
-Highest value over a specified period       
+### Highest value over a specified period       
 
 代码：MAX(close, timeperiod=30)
 
@@ -1222,7 +1218,7 @@ Highest value over a specified period
 
 
 
-Index of highest value over a specified period
+### Index of highest value over a specified period
 
 代码：MAXINDEX(close, timeperiod=30)
 
@@ -1230,7 +1226,7 @@ Index of highest value over a specified period
 
 
 
-Lowest value over a specified period        
+### Lowest value over a specified period        
 
 代码：MIN(close, timeperiod=30)
 
@@ -1238,7 +1234,7 @@ Lowest value over a specified period
 
 
 
-Index of lowest value over a specified period
+### Index of lowest value over a specified period
 
 代码：MININDEX(close, timeperiod=30)
 
@@ -1246,7 +1242,7 @@ Index of lowest value over a specified period
 
 
 
-Lowest and highest values over a specified period  
+### Lowest and highest values over a specified period  
 
 代码：MINMAX(close, timeperiod=30)
 
@@ -1254,7 +1250,7 @@ Lowest and highest values over a specified period
 
 
 
-Indexes of lowest&highest values over a period
+### Indexes of lowest&highest values over a period
 
 代码：MINMAXINDEX(close, timeperiod=30)
 
@@ -1262,7 +1258,7 @@ Indexes of lowest&highest values over a period
 
 
 
-Vector Arithmetic Mult      
+### Vector Arithmetic Mult      
 
 代码：MULT(high, low)
 
@@ -1270,7 +1266,7 @@ Vector Arithmetic Mult
 
 
 
-Vector Arithmetic Substraction
+### Vector Arithmetic Substraction
 
 代码：SUB(high, low)
 
@@ -1278,7 +1274,7 @@ Vector Arithmetic Substraction
 
 
 
-Summation
+### Summation
 
 代码：SUM(close, timeperiod=30)
 
