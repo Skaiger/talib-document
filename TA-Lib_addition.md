@@ -1,36 +1,38 @@
 TA-Lib
 ===========================
-##TA-Lib是一个优秀的技术指标计算工具包，广泛应用于量化分析和程序化交易，常用语技术指标计算以及K线形态识别，可以大大方便我们量化投资中编程工作。TA-Lib主要包括10大类工具：
+TA-Lib是一个优秀的技术指标计算工具包，广泛应用于量化分析和程序化交易，常用语技术指标计算以及K线形态识别，可以大大方便我们量化投资中编程工作。TA-Lib主要包括10大类工具：
 
-#Overlap Studies(重叠指标)
+****
 
-#Volume Indicators(交易量指标)
+## Overlap Studies(重叠指标)
 
-#Cycle Indicators(周期指标)
+## Volume Indicators(交易量指标)
 
-#Price Transform(价格变换)
+## Cycle Indicators(周期指标)
 
-#Volatility Indicators(波动率指标)
+## Price Transform(价格变换)
 
-Pattern Recognition(模式识别)
+## Volatility Indicators(波动率指标)
 
-Statistic Functions(统计函数)
+## Pattern Recognition(模式识别)
 
-Math Transform(数学变换)
+## Statistic Functions(统计函数)
 
-Math Operators(数学运算)
+## Math Transform(数学变换)
 
-2. Overlapping Studies Function(重叠指标)
+## Math Operators(数学运算)
+
+# Overlapping Studies Function(重叠指标)
 以均线为代表的重叠指标是最常用的技术指标之一，TALib中提供了很多重叠指标的计算功能，汇总如下：
 
-Simple Moving Average——简单均线           
+### Simple Moving Average——简单均线           
 
 代码：SMA(close,timeperiod=N)
 
 简介说明：N日收盘价之和/N，解释价格平均移动最普遍的方法是就是将其动量与价格运动相比较。当价格上升到其移动平均线之上时，则视为一个买入信号；当价格下落到移动平均线下面时，可视为一个卖出信号。均线的含义类似，只是计算方法不同，特别是采用不同的平滑方法之后。
 
 
-Exponential Moving Average——指数平滑均线
+### Exponential Moving Average——指数平滑均线
 
 代码：EMA(close,timeperiod=N)
 
@@ -38,7 +40,7 @@ Exponential Moving Average——指数平滑均线
 
 
 
-Weighted Moving Average——加权平滑均线
+### Weighted Moving Average——加权平滑均线
 
 代码：WMA(close,timeperiod=N)
 
