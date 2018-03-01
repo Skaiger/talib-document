@@ -444,7 +444,7 @@ Stochastic Relative Strength Index——       随机相对强弱指标
 
 简介说明：前交易日的最高价与最低价间的波幅，前一交易日收盘价与当个交易日最高价间的波幅，前一交易日收盘价与当个交易日最低价间的波幅，这三者中的最大值为真实波幅
 
-6. Price Transform Functions(价格转换)
+#  Price Transform Functions(价格转换)
 价格转换，在TALib中价格转换函数有4个，汇总如下：
 
 
@@ -479,7 +479,7 @@ Stochastic Relative Strength Index——       随机相对强弱指标
 
 简介说明：最高价，最低价和收盘价的加权平均
 
-7. Cycle Indicator Functions(周期指标)
+# Cycle Indicator Functions(周期指标)
 周期性指标常常用来判断中长期的趋势，在TALib中周期性指标有5个，汇总如下：
 
 
@@ -1189,7 +1189,7 @@ Closing Marubozu  收盘缺影线
 
 简介说明：双曲正切
 
-16. Math Operator Functions(数学运算函数)
+# Math Operator Functions(数学运算函数)
 在TALib中也提供了很多数学运算函数，汇总如下：
 
 
